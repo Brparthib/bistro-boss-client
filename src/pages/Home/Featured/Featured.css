@@ -1,0 +1,22 @@
+.featured {
+    background: url('../../../assets/home/featured.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.featured::before{
+    position: absolute;
+    background: #111;
+    content: '';
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+
+
